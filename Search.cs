@@ -16,9 +16,9 @@ namespace AISearchSample
 
         public Search(ArrayList nodes,int type) 
         {
-           if(type==1)//DFS 
+           if(type==2)//DFS 
             fringe = new Fringe();
-           if(type==2)//BFS
+           if(type==1)//BFS
             fringe = new Fringe2();
             n = nodes;
             
